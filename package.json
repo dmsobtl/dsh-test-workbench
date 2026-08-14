@@ -1,0 +1,18 @@
+{
+  "name": "dsh-test-workbench",
+  "version": "0.1.0",
+  "description": "测试工作台 Profile for DeepSeek Harness — 组装 UI 验证、会话分析、视觉路由为一体的 QA Agent。",
+  "type": "module",
+  "dsh": {
+    "profile": {
+      "bundles": ["@deepseek-ai/dsh-base"]
+    }
+  },
+  "dependencies": {
+    "dsh-tool-app-verify": "^0.1.0",
+    "dsh-session-analyst": "^0.1.0",
+    "dsh-llm-vision-router": "^0.1.0"
+  },
+  "keywords": ["dsh-plugin", "deepseek-harness", "test-workbench", "qa", "automation"],
+  "license": "MIT"
+}
