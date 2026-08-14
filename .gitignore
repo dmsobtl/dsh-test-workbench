@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Screenshot baselines (may be committed via git-lfs if you want to share them)
+baselines/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Env
+.env
+.env.*

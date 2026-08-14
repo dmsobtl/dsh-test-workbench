@@ -1,11 +1,12 @@
 {
   "name": "dsh-test-workbench",
   "version": "0.1.0",
+  "private": true,
   "description": "测试工作台 Profile for DeepSeek Harness — 组装 UI 验证、会话分析、视觉路由为一体的 QA Agent。",
   "type": "module",
   "dsh": {
     "profile": {
-      "bundles": ["@deepseek-ai/dsh-base"]
+      "bundles": ["@deepseek-ai/dsh-base", "@deepseek-ai/dsh-headless"]
     }
   },
   "dependencies": {
