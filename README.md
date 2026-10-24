@@ -1,5 +1,7 @@
 # dsh-test-workbench
 
+> 兼容 dsh 0.2.1-rc.x。bundle 引用（dsh-base / dsh-headless）与 patch 语法已核对 0.2.1 版本；所依赖的业务插件需 v0.1.1+。
+
 基于 DeepSeek Harness 的测试工作台 Profile —— 开箱即用的 QA Agent。
 
 组装了三个插件（UI 验证、会话分析、视觉路由）+ 预置 Skill + QA 测试人格。

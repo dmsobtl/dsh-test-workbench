@@ -6,14 +6,23 @@
   "type": "module",
   "dsh": {
     "profile": {
-      "bundles": ["@deepseek-ai/dsh-base", "@deepseek-ai/dsh-headless"]
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-headless"
+      ]
     }
   },
   "dependencies": {
-    "dsh-tool-app-verify": "^0.1.0",
-    "dsh-session-analyst": "^0.1.0",
-    "dsh-llm-vision-router": "^0.1.0"
+    "dsh-tool-app-verify": "^0.1.1",
+    "dsh-session-analyst": "^0.1.1",
+    "dsh-llm-vision-router": "^0.1.1"
   },
-  "keywords": ["dsh-plugin", "deepseek-harness", "test-workbench", "qa", "automation"],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "test-workbench",
+    "qa",
+    "automation"
+  ],
   "license": "MIT"
 }
